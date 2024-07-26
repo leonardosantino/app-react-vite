@@ -1,10 +1,11 @@
-import Home from "./pages/home";
+import {Header} from "./components/Header.tsx";
 
 function App() {
 
   return (
     <>
-      <Home />
+        <Header/>
+      App works!
     </>
   )
 }
