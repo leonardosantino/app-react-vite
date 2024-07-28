@@ -15,5 +15,8 @@ jobs:
       - name: action npm ci
         run: npm ci
 
+      - name: action lint
+        run: npm run lint
+
       - name: action test
         run: npm test
