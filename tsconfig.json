@@ -5,6 +5,7 @@
       "@/*": ["src/*"]
     },
     "jsx": "react-jsx",
+    "esModuleInterop": true,
     "allowImportingTsExtensions": true
   },
 
