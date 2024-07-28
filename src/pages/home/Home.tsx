@@ -6,7 +6,6 @@ export function Home() {
     <>
       <Header />
       <Main />
-      Home Works!
     </>
   );
 }

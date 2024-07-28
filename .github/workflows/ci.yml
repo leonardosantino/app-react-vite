@@ -1,0 +1,19 @@
+name: HML
+
+on: [pull_request]
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - name: action checkout
+        uses: actions/checkout@v4
+
+      - name: action setup node
+        uses: actions/setup-node@v4
+
+      - name: action npm ci
+        run: npm ci
+
+      - name: action test
+        run: npm test
