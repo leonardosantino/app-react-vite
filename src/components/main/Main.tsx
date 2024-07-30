@@ -1,3 +1,3 @@
 export function Main() {
-  return <>Main works!</>;
+  return <>App works!</>;
 }

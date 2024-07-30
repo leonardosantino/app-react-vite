@@ -8,6 +8,6 @@ describe('App', () => {
   it('should render header', async () => {
     const component = render(<App />).container;
 
-    expect(component).toHaveTextContent('Main works!');
+    expect(component).toHaveTextContent('App works!');
   });
 });

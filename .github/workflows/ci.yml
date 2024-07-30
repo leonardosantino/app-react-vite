@@ -5,12 +5,17 @@ on: [pull_request]
 jobs:
   ci:
     runs-on: ubuntu-latest
+#    strategy:
+#        matrix:
+#          node: ["14.x", "16.x"]
     steps:
       - name: action checkout
         uses: actions/checkout@v4
 
       - name: action setup node
         uses: actions/setup-node@v4
+#        with:
+#          node-version: ${{ matrix.node }}
 
       - name: action npm ci
         run: npm ci
