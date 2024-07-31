@@ -16,6 +16,8 @@ jobs:
     steps:
       - name: action checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Perform a full clone
 
       - name: action setup node
         uses: actions/setup-node@v4
