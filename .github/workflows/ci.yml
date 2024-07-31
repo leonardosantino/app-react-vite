@@ -2,7 +2,8 @@ name: HML
 
 on:
   push:
-    - main
+    branches:
+      - main
   pull_request:
     types: [opened, synchronize, reopened]
 
