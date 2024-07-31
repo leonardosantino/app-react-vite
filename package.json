@@ -11,7 +11,7 @@
     "prettier": "prettier --write .",
     "preview": "vite preview",
     "prepare": "husky",
-    "sonar": "sonar-scanner -Dsonar.token=sqp_33141deba0af9e7d499f5fc5e8d6fffb5191d43b"
+    "sonar": "sonar-scanner"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^6.4.8",
